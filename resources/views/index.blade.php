@@ -2,6 +2,8 @@
 
 @section('title', 'Clean Blog')
 
+
+
 @section('content')
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -24,7 +26,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="{{route('posts.show')}}">
                         <h2 class="post-title">
                             Man must explore, and this is exploration at its greatest
                         </h2>
